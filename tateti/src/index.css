@@ -8,6 +8,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     text-align: center;
     color: #fff;
@@ -48,8 +55,21 @@ h1 {
 }
 
 
-button{
+.start{
     background-color: #444;
-    margin-left: 120px;
-    margin-bottom: 20px;
+    margin-bottom:20px ;
+    border: no;
+}
+
+.reset{
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #251954;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+p{
+    text-align: center;
 }
